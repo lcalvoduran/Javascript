@@ -1,1 +1,2 @@
-console.log("Hello");
+
+// https://lenguajejs.com/javascript/caracteristicas/expresiones-regulares/

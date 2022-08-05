@@ -1,0 +1,1 @@
+//JSON es un formato ligero de datos

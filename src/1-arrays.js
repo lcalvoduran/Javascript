@@ -72,4 +72,15 @@ reduce1.reduceRight((p, e) => p - e); // 25 - 10 - 25 - 5 - 95. Devuelve -110 --
 
 **/
 
-// =========================================================== Transformations
+// =========================================================== Iterators (keys(), values() and entries())
+
+const example = ["Sonic", "Ana", "Juan"];
+
+//.keys()       --> Permite iterar un array e ir devolviendo sus índices o posiciones (keys)
+console.log([...example.keys()]);
+
+//.values()     --> Permite iterar un array e ir devolviendo sus valores (elementos)
+console.log([...example.values()]);
+
+//.entries()    --> Permite iterar un array e ir devolviendo un array [Índice, Valor]
+console.log([...example.entries()]);
