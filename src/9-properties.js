@@ -27,8 +27,8 @@ donald.quienSoy();  // 'Hola soy Donald'
 // puedan tener valores diferentes dependiendo del tipo de objeto en cuestión, pasándole los valores específicos por parámetro.
 // Observa que, las propiedades de la clase podrán ser modificadas externamente ya que por defecto son propiedades públicas.
 
-const pato = new Animal("Donald");
-pato.quienSoy();    // 'Hola soy Donald'
+const patodonald = new Animal("Donald");
+patodonald.quienSoy();    // 'Hola soy Donald'
 
 pato.nombre = "Paco";
 pato.quienSoy();    // 'Hola soy Paco'
